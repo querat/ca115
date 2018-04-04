@@ -2,14 +2,19 @@
 <html>
 <head>
     <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>plop</title>
-    <!--<link rel="stylesheet" href="style/semantic.css">-->
     <link rel="stylesheet" href="style/layout.css">
     <link rel="stylesheet" href="style/style.css">
 </head>
 <body>
     <div id="navigation-bar"> <!--navbar-->
-        <div class="navigation-bar-button centered-content">HomeBox</div>
+        <a href=".">
+            <div class="navigation-bar-button centered-content">HomeBox</div>
+        </a>
+        <a href="./about.html">
+            <div class="navigation-bar-button centered-content" onclick="window.location.assign('./about.html')">About us</div>
+        </a>
     </div> <!-- /navbar -->
     <header>
 

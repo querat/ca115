@@ -7,12 +7,11 @@ body {
 }
 
 #navigation-bar {
-    top:                0;     /* Located at the top of the page */
-    z-index:            10000; /* always on top */
-    margin:             0;
-    position:           fixed;
-    width:              100%;
-    background-color:   #FF0000;
+    top:                0;          /* Located at the top of the page                                           */
+    z-index:            10000;      /* on top of all other elements. Dirty way, but this is CSS after all ...   */
+    position:           fixed;      /* Stays on top after scrolling                                             */
+    width:              100%;       /* Takes up the whole page's width                                          */
+    background-color:   #FF0000;    /* Todo: change to a real color when layout is done                         */
 }
 
 /* center content inside the element, both vertically & horizontally*/
@@ -25,6 +24,7 @@ body {
 .navigation-bar-button{
     min-height:         48px;
     font-size:          23px;
+    width:              auto;
     font-weight:        bold;
     color:              #FFFFFF;
 
