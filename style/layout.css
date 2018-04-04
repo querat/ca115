@@ -6,10 +6,24 @@ body {
                 */
 }
 
-#navigation-bar {
+/* Center the main body of the document, don't let it take too much space */
+main {
+    width:      60%;
+    margin:     auto;
+}
+
+.navigation-bar-ul-override {
+    margin:     0;
+    padding:    0;
+    list-style: none;
+}
+
+.navigation-bar {
+    display:            flex;
     top:                0;          /* Located at the top of the page                                           */
     z-index:            10000;      /* on top of all other elements. Dirty way, but this is CSS after all ...   */
     position:           fixed;      /* Stays on top after scrolling                                             */
+    height:             48px;
     width:              100%;       /* Takes up the whole page's width                                          */
     background-color:   #FF0000;    /* Todo: change to a real color when layout is done                         */
 }
@@ -21,7 +35,16 @@ body {
     align-items:        center;
 }
 
+.navigation-bar-separator {
+    width:              auto;
+    margin:             auto;
+}
+
 .navigation-bar-button{
+    margin-left:        16px;
+    margin-right:       16px;
+    align-items:        center;
+    justify-content:    center;
     min-height:         48px;
     font-size:          23px;
     width:              auto;
