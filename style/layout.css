@@ -1,0 +1,7 @@
+#navigation-bar {
+    top:        0;     /* Located at the top of the page */
+    z-index:    10000; /* always on top */
+    position:   fixed;
+    width:      100%;
+    background-color: #FFFFFF;
+}
