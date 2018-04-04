@@ -15,7 +15,7 @@
     flex-direction:     column;     /* Makes the flex work up-down instead of left-right */
     justify-content:    center;
     align-content:      center;
-    height:             600px;
+    height:             100vh;
 }
 
 .background-image-overlay {
@@ -31,7 +31,7 @@
 #title-main-text {
     display:        flex;
     margin:         auto;
-    margin-bottom:  0px;
+    margin-bottom:  0;
     font-weight:    bold;
     font-size:      64px;
     color:          #FFFFFF;
