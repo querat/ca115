@@ -12,13 +12,11 @@ main {
     margin:     auto;
 }
 
-.navigation-bar-ul-override {
+.navigation-bar {
     margin:     0;
     padding:    0;
     list-style: none;
-}
 
-.navigation-bar {
     display:            flex;
     top:                0;          /* Located at the top of the page                                           */
     z-index:            10000;      /* on top of all other elements. Dirty way, but this is CSS after all ...   */
@@ -45,7 +43,6 @@ main {
     margin-right:       16px;
     align-items:        center;
     justify-content:    center;
-    min-height:         48px;
     font-size:          23px;
     width:              auto;
     font-weight:        bold;
