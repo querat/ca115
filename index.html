@@ -3,22 +3,35 @@
 <head>
     <meta charset="UTF-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>plop</title>
-    <link rel="stylesheet" href="style/layout.css">
+    <title>HomeBox</title>
     <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="style/navbar.css">
+    <link rel="stylesheet" href="style/title.css">
 </head>
 <body>
     <ul class="navigation-bar">
-        <li class="navigation-bar-button centered-content">HomeBox</li>
+        <li class="navigation-bar-button centered-content" onclick="window.location.assign('.')">HomeBox</li>
         <li class="navigation-bar-separator"></li>
-        <li class="navigation-bar-button centered-content">About us</li>
+            <li class="navigation-bar-button centered-content" onclick="window.location.assign('.')">Contact</li>
+        <li class="navigation-bar-button centered-content" onclick="window.location.assign('about.html')">About us</li>
     </ul> <!-- /navbar -->
-    <header>
 
+    <header class="background-image-header">
+        <div class="background-image-overlay"></div>
+        <div class="navigation-bar-separator"></div>
+        <div id="title-main-text">
+            HomeBox
+        </div>
+        <div id="title-sub-text">
+            Monitor your environment, improve your health.
+        </div>
+        <div class="navigation-bar-separator"></div>
     </header>
-    <menu>
 
+    <menu>
+        <!--menu on the left-->
     </menu>
+
     <main>
         <div>
             <h1>Lorem ipsum</h1>
@@ -55,7 +68,13 @@
             </p>
         </div>
     </main>
-    <!--<right></right>-->
+
+    <!--
+    <right>
+
+    </right>
+    -->
+
     <footer>
 
     </footer>

@@ -1,31 +1,15 @@
-body {
-    margin: 0; /*
-                * This is the kind of reasons why you don't use CSS
-                * without a framework, but whatever ...
-                * Not doing this results in a blank space at the left side of the navigation bar
-                */
-    font:13px/18px 'Helvetica Neue', Helvetica, Arial, Helvetica, sans-serif;
-}
-
-/* Center the main body of the document, don't let it take too much space */
-main {
-    margin:     auto;
-    margin-top: 64px;
-    width:      60%;
-}
-
 .navigation-bar {
-    margin:     0;
-    padding:    0;
-    list-style: none;
-
     display:            flex;
+    margin:             0;
+    padding:            0;
+    list-style:         none;
+
+    width:              100%;       /* Takes up the whole page's width                                          */
     top:                0;          /* Located at the top of the page                                           */
     z-index:            10000;      /* on top of all other elements. Dirty way, but this is CSS after all ...   */
     position:           fixed;      /* Stays on top after scrolling                                             */
     height:             48px;
-    width:              100%;       /* Takes up the whole page's width                                          */
-    background-color:   #FF0000;    /* Todo: change to a real color when layout is done                         */
+    background-color:   rgba(0, 0, 0, 0.75);    /* Todo: change to a real color when layout is done                         */
 }
 
 /* center content inside the element, both vertically & horizontally*/
@@ -40,7 +24,8 @@ main {
     margin:             auto;
 }
 
-.navigation-bar-button{
+.navigation-bar-button {
+    cursor:             pointer;
     margin-left:        16px;
     margin-right:       16px;
     align-items:        center;
