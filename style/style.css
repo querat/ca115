@@ -1,24 +1,17 @@
 body {
-    margin: 0; /*
-                * This is the kind of reasons why you don't use CSS
-                * without a framework, but whatever ...
-                * Not doing this results in a blank space at the left side of the navigation bar
-                */
+    /*
+    *  This is the kind of reasons why you don't use CSS
+    *  without a framework, but I don't feel like beating a dead horse ...
+    *  Not doing this results in a blank space at the left side of the navigation bar
+    */
+    margin: 0;
+
     font:13px/18px 'Helvetica Neue', Helvetica, Arial, Helvetica, sans-serif;
 }
 
+/* Center the content of the main body of the document */
 main {
     display:            flex;
     justify-content:    center;
     align-content:      center;
-}
-
-h1 {
-}
-
-header {
-}
-
-/* Center the main body of the document, don't let it take too much space */
-main {
 }

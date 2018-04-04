@@ -1,21 +1,13 @@
-.title-div {
-
-
-
-}
-
 .background-image-header {
     background: url('../res/forest.jpg') no-repeat ;
     background-size:    cover;
 
     width:              100%;
     margin:             0;
-    position:           relative;
+    position:           relative;   /* Needed so the black transparent overlay fits over the picture    */
     display:            flex;
-    flex-direction:     column;     /* Makes the flex work up-down instead of left-right */
-    justify-content:    center;
-    align-content:      center;
-    height:             100vh;
+    flex-direction:     column;     /* Makes the flex work up-down instead of left-right                */
+    height:             100vh;      /* Take all of the device's screen height (responsive)              */
 }
 
 .background-image-overlay {
@@ -28,23 +20,21 @@
     z-index:            0;      /* Below other divs */
 }
 
-#title-main-text {
+.title-text {
     text-align:     center;
     margin:         auto;
-    margin-bottom:  0;
-    font-weight:    bold;
-    font-size:      64px;
     color:          #FFFFFF;
     font-family:    Lora sans-serif;
     z-index:        1;          /* Above overlay div */
 }
 
+#title-main-text {
+    margin-bottom:  0;
+    font-weight:    bold;
+    font-size:      64px;
+}
+
 #title-sub-text {
-    text-align:     center;
-    margin:         auto;
     margin-top:     48px;
     font-size:      24px;
-    color:          #FFFFFF;
-    font-family:    Lora sans-serif;
-    z-index:        1;          /* Above overlay div */
 }
