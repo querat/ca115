@@ -19,7 +19,7 @@
 }
 
 .background-image-overlay {
-    background-color:   rgba(0, 0, 0, 0.3);
+    background-color:   rgba(0, 0, 0, 0.5);
     position:           absolute;
     width:              100%;
     height:             100%;
@@ -35,6 +35,7 @@
     font-weight:    bold;
     font-size:      64px;
     color:          #FFFFFF;
+    font-family:    Lora sans-serif;
     z-index:        1;          /* Above overlay div */
 }
 
@@ -42,8 +43,9 @@
     display:        flex;
     margin:         auto;
     margin-top:     48px;
-    font-weight:    bold;
+    /*font-weight:    bold;*/
     font-size:      24px;
     color:          #FFFFFF;
+    font-family:    Lora sans-serif;
     z-index:        1;          /* Above overlay div */
 }

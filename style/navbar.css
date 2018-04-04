@@ -8,7 +8,7 @@
     top:                0;          /* Located at the top of the page                                           */
     z-index:            10000;      /* on top of all other elements. Dirty way, but this is CSS after all ...   */
     position:           fixed;      /* Stays on top after scrolling                                             */
-    height:             48px;
+    height:             48px;       /* fixed height                                                             */
     background-color:   rgba(0, 0, 0, 0.75);    /* Todo: change to a real color when layout is done                         */
 }
 
