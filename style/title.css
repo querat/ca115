@@ -29,7 +29,7 @@
 }
 
 #title-main-text {
-    display:        flex;
+    text-align:     center;
     margin:         auto;
     margin-bottom:  0;
     font-weight:    bold;
@@ -40,10 +40,9 @@
 }
 
 #title-sub-text {
-    display:        flex;
+    text-align:     center;
     margin:         auto;
     margin-top:     48px;
-    /*font-weight:    bold;*/
     font-size:      24px;
     color:          #FFFFFF;
     font-family:    Lora sans-serif;
