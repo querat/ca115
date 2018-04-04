@@ -1,7 +1,31 @@
+body {
+    margin: 0; /*
+                * This is the kind of reasons why you don't use CSS
+                * without a framework, but whatever ...
+                * Not doing this results in a blank space at the left side of the navigation bar
+                */
+}
+
 #navigation-bar {
-    top:        0;     /* Located at the top of the page */
-    z-index:    10000; /* always on top */
-    position:   fixed;
-    width:      100%;
-    background-color: #FFFFFF;
+    top:                0;     /* Located at the top of the page */
+    z-index:            10000; /* always on top */
+    margin:             0;
+    position:           fixed;
+    width:              100%;
+    background-color:   #FF0000;
+}
+
+/* center content inside the element, both vertically & horizontally*/
+.centered-content {
+    display:            flex;
+    justify-content:    center;
+    align-items:        center;
+}
+
+.navigation-bar-button{
+    min-height:         48px;
+    font-size:          23px;
+    font-weight:        bold;
+    color:              #FFFFFF;
+
 }
