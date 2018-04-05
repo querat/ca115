@@ -29,11 +29,18 @@ footer {
     display:            flex;
     flex-direction:     column;
     width:              100%;
+    overflow:           hidden;
 }
 
 .footer-social-icon {
     width:              32px;
     height:             32px;
+}
+
+.footer-menu {
+    overflow-x:         scroll;
+    overflow-scrolling: auto;
+
 }
 
 .footer-menu-element {
