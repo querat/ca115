@@ -12,13 +12,6 @@
     background-color:   rgba(0, 0, 0, 0.75);    /* Todo: change to a real color when layout is done                         */
 }
 
-/* center content inside the element, both vertically & horizontally*/
-.centered-content {
-    display:            flex;
-    justify-content:    center;
-    align-items:        center;
-}
-
 .navigation-bar-separator {
     width:              auto;
     margin:             auto;

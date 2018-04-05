@@ -15,3 +15,14 @@ main {
     justify-content:    center;
     align-content:      center;
 }
+
+/* center content inside the element, both vertically & horizontally*/
+.centered-content {
+    display:            flex;
+    justify-content:    center;
+    align-items:        center;
+}
+
+.centered {
+    margin:             auto;
+}
