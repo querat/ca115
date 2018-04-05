@@ -38,8 +38,7 @@ footer {
 }
 
 .footer-menu {
-    overflow-x:         scroll;
-    overflow-scrolling: auto;
+    overflow-wrap:      normal;
 
 }
 
