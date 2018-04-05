@@ -38,8 +38,8 @@ footer {
 }
 
 .footer-menu {
-    overflow-wrap:      normal;
-
+    list-style-type:    none;
+    padding:            0; /* Remove <ul> offset */
 }
 
 .footer-menu-element {
