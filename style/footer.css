@@ -40,6 +40,10 @@ footer {
 .footer-menu {
     list-style-type:    none;
     padding:            0; /* Remove <ul> offset */
+    overflow-x:         auto;
+}
+.footer-menu::-webkit-scrollbar{
+    display: none;
 }
 
 .footer-menu-element {
