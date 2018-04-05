@@ -31,12 +31,15 @@ footer {
 }
 
 .footer-social-icon {
-    width:      32px;
-    height:     32px;
+    width:              32px;
+    height:             32px;
 }
 
-.footer-menubar {
-
+.footer-menu-element {
+    margin:             auto;
+    margin-right:       5%;
+    margin-left:        5%;
+    font-size:          smaller;
 }
 
 .footer-social-network {
