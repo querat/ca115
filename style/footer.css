@@ -17,9 +17,10 @@ footer {
 }
 
 .green-rounded-textbox {
-    background-color: #00aa00;
-    border-radius: 20px;
-    padding: 8px;
+    background-color:   #00aa00;
+    border-radius:      20px;
+    padding:            8px;
+    font-size:          smaller;
 }
 
 .footer-bottom {
