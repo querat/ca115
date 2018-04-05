@@ -8,8 +8,7 @@ footer {
 }
 
 .footer-top {
-    margin-top:         0;
-    background-color:   #888888;
+    background-color:   #444444;
     width:              100%;
     min-height:         64px;
     display:            flex;
@@ -17,15 +16,22 @@ footer {
     align-content:      center;
 }
 
-.footer-phone-number {
-    color:          white;
-    font-weight:    bold;
-    font-size:      24px;
+.green-rounded-textbox {
+    background-color: #00aa00;
+    border-radius: 20px;
+    padding: 10px;
 }
 
 .footer-bottom {
     background-color:   #111111;
     min-height:         256px;
+    display:            flex;
+    flex-direction:     column;
+}
+
+.footer-social-icon {
+    width:      32px;
+    height:     32px;
 }
 
 .footer-menubar {

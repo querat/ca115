@@ -23,6 +23,31 @@ main {
     align-items:        center;
 }
 
+.flex-separator {
+    margin:         auto;
+    margin-right:   0;
+    margin-left:    0;
+}
+
+.auto-width {
+    width: auto;
+}
+
 .centered {
     margin:             auto;
+    padding:            4px;
 }
+
+.white-bold-text {
+    color:              white;
+    font-weight:        bold;
+    font-size:          24px;
+}
+
+.white-tiny-text {
+    color:              white;
+    font-size:          14px;
+    font-weight:        lighter;
+    font-style:         italic;
+}
+
