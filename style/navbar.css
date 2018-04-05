@@ -12,11 +12,6 @@
     background-color:   rgba(0, 0, 0, 0.75);    /* Todo: change to a real color when layout is done                         */
 }
 
-.navigation-bar-separator {
-    width:              auto;
-    margin:             auto;
-}
-
 .navigation-bar-button {
     cursor:             pointer;
     margin-left:        16px;

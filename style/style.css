@@ -22,13 +22,6 @@ main {
     display:            flex;
     justify-content:    center;
     align-items:        center;
-    overflow:           auto;
-}
-
-.flex-separator {
-    margin:         auto;
-    margin-right:   0;
-    margin-left:    0;
 }
 
 .auto-width {
@@ -53,3 +46,7 @@ main {
     font-style:         italic;
 }
 
+.flex-separator {
+    width:              auto;
+    margin:             auto;
+}
