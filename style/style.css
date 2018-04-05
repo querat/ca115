@@ -18,9 +18,11 @@ main {
 
 /* center content inside the element, both vertically & horizontally*/
 .centered-content {
+    margin:             auto;
     display:            flex;
     justify-content:    center;
     align-items:        center;
+    overflow:           auto;
 }
 
 .flex-separator {
