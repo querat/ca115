@@ -12,8 +12,10 @@ body {
 /* Center the content of the main body of the document */
 main {
     display:            flex;
+    flex-direction:     column;
     justify-content:    center;
     align-content:      center;
+    text-align:         center;
 }
 
 /* center content inside the element, both vertically & horizontally*/
