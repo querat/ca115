@@ -7,6 +7,8 @@ h2 {
     font-weight:    600;
     font-family:    Lora sans-serif;
     margin-top:     64px;
+    margin-bottom:  32px;
+    width:          100%;
 }
 
 .centered-text {
@@ -16,15 +18,14 @@ h2 {
 }
 
 .creator-text {
-    margin-top: 48px;
+    margin-top: 16px;
+    font-size:  18px;
 }
 
 .team-text {
-    margin-top: 48px;
 }
 
 .main-text {
-    /*margin:         auto;*/
     font-family:    Lora sans-serif;
     color:          #666666;
     line-height:    26px;
