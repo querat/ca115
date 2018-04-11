@@ -1,12 +1,96 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <title>About - HomeBox</title>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>HomeBox</title>
+    <link rel="stylesheet" href="./style/style.css">
+    <link rel="stylesheet" href="./style/navbar.css">
+    <link rel="stylesheet" href="./style/header.css">
+    <link rel="stylesheet" href="./style/text.css">
+    <link rel="stylesheet" href="./style/footer.css">
 </head>
 <body>
-    <div>
-        About
-    </div>
+    <ul class="navigation-bar">
+        <li class="navigation-bar-button centered-content" onclick="window.location.assign('index.html')">HomeBox</li>
+        <li class="flex-separator"></li>
+            <li class="navigation-bar-button centered-content" onclick="window.location.assign('contact.html')">Contact</li>
+        <li class="navigation-bar-button centered-content" onclick="window.location.assign('about.html')">About us</li>
+    </ul> <!-- /navbar -->
+
+
+    <menu>
+        <!--menu on the left. Not needed for this project I guess-->
+    </menu>
+
+    <main>
+
+        <h2>About</h2>
+        <div class="centered-text main-text ">
+            <p>
+                After intensive research paired with the recent events of Storm Emma, our group created the idea of "HomeBox".
+            </p>
+			
+			<p>
+				HomeBox is an environmentally friendly product that can detect and alert home owners of any potential dangers around the house. These include: <br >Toxic Gases <br >Extreme Temperatures <br >Intensive Lighting 
+			</p>
+			
+			<h3>
+				It consists of:
+			</h3>
+			
+				<p> A "Main Hub" </p>
+				<p> Several modules, each created to detect a different substance </p>
+				<p> A mobile application </p>
+				
+			<h3> How it works </h3>
+			
+				<p> (1)The modules placed around the house detect if there is an excessive amount of CO2 or other dangerous substances (depending on the module function) </p>
+				<p> (2)These modules send this data to the "main hub" </p>
+				<p> (3)The "main hub" , which is connected to the Wi-Fi network, sends a notification to the home owners phone to alert them of this dangerous substance </p>
+        </div>
+		
+		<div>
+		<img src="picture..JPG">
+		</div>
+    </main>
+
+    <!--
+    <right>
+        menu on the right. not needed for this project
+    </right>
+    -->
+
+    <footer class="white-bold-text">
+        <div class="footer-top">
+            <span class="green-rounded-textbox centered">Contact us !</span>
+            <span class="green-rounded-textbox centered"><span style="background: #00FF00; border-radius: 100%; padding: 10px;">??</span> +123 456 789</span>
+        </div>
+        <div class="footer-bottom centered-content">
+            <ul class="centered-content footer-menu" style="overflow: auto; width: 100%">
+                <li class="footer-menu-element">
+                    element1
+                </li>
+                <li class="footer-menu-element">
+                    element2
+                </li>
+                <li class="footer-menu-element">
+                    element3
+                </li>
+            </ul>
+            <div class="centered centered-content">
+                <img src="./res/fb-icon.png"      alt="icon fb"      class="footer-social-icon centered" href="facebook.com"/>
+                <img src="./res/twitter-icon.png" alt="icon twitter" class="footer-social-icon centered" href="twitter.com"/>
+                <img src="./res/google-icon.png"  alt="icon google"  class="footer-social-icon centered" href="google.com"/>
+                <img src="./res/rss-icon.png"     alt="icon rss"     class="footer-social-icon centered"/>
+
+            </div>
+            <div class="white-tiny-text centered">
+                � HomeBox - All rights reserved
+            </div>
+        </div>
+
+    </footer>
 </body>
+
 </html>
