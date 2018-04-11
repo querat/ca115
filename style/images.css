@@ -21,7 +21,7 @@
     margin-bottom:      -1%;
 }
 
-.team-photo-conta   iner {
+.team-photo-container {
     padding: 32px;
     display: flex;
     flex-direction: column;
