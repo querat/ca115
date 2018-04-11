@@ -21,8 +21,8 @@
     margin-bottom:      -1%;
 }
 
-.team-photo-container {
-    padding: 5%;
+.team-photo-conta   iner {
+    padding: 32px;
     display: flex;
     flex-direction: column;
 }
