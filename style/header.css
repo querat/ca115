@@ -26,6 +26,7 @@
     color:          #FFFFFF;
     font-family:    Lora sans-serif;
     z-index:        1;          /* Above overlay div */
+    max-width:      80vw;
 }
 
 #title-main-text {
@@ -33,6 +34,7 @@
     font-weight:    bold;
     font-size:      64px;
     line-height:    64px;
+    max-width:      80%;
 }
 
 #title-sub-text {

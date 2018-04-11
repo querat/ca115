@@ -10,6 +10,8 @@
     position:           fixed;      /* Stays on top after scrolling                                             */
     height:             48px;       /* fixed height                                                             */
     background-color:   rgba(0, 0, 0, 0.75);    /* Todo: change to a real color when layout is done                         */
+    max-width:          100%;
+    /*overflow:           hidden;*/
 }
 
 .navigation-bar-button {
@@ -22,5 +24,6 @@
     width:              auto;
     font-weight:        bold;
     color:              #FFFFFF;
+    /*overflow: hidden;*/
 
 }
