@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>HomeBox</title>
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="style/navbar.css">
+    <link rel="stylesheet" href="style/header.css">
+    <link rel="stylesheet" href="style/text.css">
+    <link rel="stylesheet" href="style/footer.css">
+</head>
+<body>
+    <ul class="navigation-bar">
+        <li class="navigation-bar-button centered-content" onclick="window.location.assign('index.html.')">HomeBox</li>
+        <li class="flex-separator"></li>
+            <li class="navigation-bar-button centered-content" onclick="window.location.assign('contact.html')">Contact</li>
+        <li class="navigation-bar-button centered-content" onclick="window.location.assign('about.html')">About us</li>
+    </ul> <!-- /navbar -->
+
+    <header class="background-image-header">
+        <div class="background-image-overlay"></div>
+        <div class="flex-separator"></div>
+        <h1 class="title-text" id="title-main-text">HomeBox</h1>
+        <div class="title-text" id="title-sub-text">Monitor your environment, improve your health.</div>
+        <div class="flex-separator"></div>
+    </header>
+
+    <menu>
+        <!--menu on the left. Not needed for this project I guess-->
+    </menu>
+
+    <main>
+
+        <h2>Contact Us</h2>
+        <div class="centered-text main-text ">
+            <p>
+                Contact us if you have any questions or inquires.
+            </p>
+        </div>
+
+        <div class="centered-text">
+            <h3>Contact our online team</h3>
+            <p>
+               contact@homebox.ie
+			</p>
+			<a href="./contact.html">
+			   facebook.com/homebox
+			</a>
+			<p>
+			   twitter.com/homebox
+			</p>
+        </div>
+		<div class="centered-text">
+            <h3>Contact us by phone</h3>
+            <p>
+			   (01) 841 1234
+			</p>             
+        </div>
+		<div class="centered-text">
+            <h3>Contact us by postal address</h3>
+			<address>
+			   HomeBox<br>
+			  The offices<br>
+			  Co.Dublin
+			 </address>
+        </div>
+		<div class="centered-text">
+		<h3>Send us a message</h3>
+
+        <form action="/action_page.php">
+         First name:<br>
+        <input type="text" name="firstname" value="">
+        <br>
+        Last name:<br>
+        <input type="text" name="lastname" value="">
+		<br>
+		Email:<br>
+        <input type="text" name="email" value="">
+		<br>
+		Phone:<br>
+        <input type="text" name="phone" value="">
+		<br>
+		Your message:<br>
+        <input type="text" name="message" value="">
+        <br><br>
+        <input type="submit" value="Submit">
+        </form> 
+        </div>		
+    </main>
+
+    <!--
+    <right>
+        menu on the right. not needed for this project
+    </right>
+    -->
+
+    <footer class="white-bold-text">
+        <div class="footer-top">
+            <span class="green-rounded-textbox centered">Contact us !</span>
+            <span class="green-rounded-textbox centered"><span style="background: #00FF00; border-radius: 100%; padding: 10px;">??</span> +123 456 789</span>
+        </div>
+        <div class="footer-bottom centered-content">
+            <ul class="centered-content footer-menu" style="overflow: auto; width: 100%">
+                <li class="footer-menu-element">
+                    element1
+                </li>
+                <li class="footer-menu-element">
+                    element2
+                </li>
+                <li class="footer-menu-element">
+                    element3
+                </li>
+            </ul>
+            <div class="centered centered-content">
+                <img src="./res/fb-icon.png"      alt="icon fb"      class="footer-social-icon centered" href="facebook.com"/>
+                <img src="./res/twitter-icon.png" alt="icon twitter" class="footer-social-icon centered" href="twitter.com"/>
+                <img src="./res/google-icon.png"  alt="icon google"  class="footer-social-icon centered" href="google.com"/>
+                <img src="./res/rss-icon.png"     alt="icon rss"     class="footer-social-icon centered"/>
+
+            </div>
+            <div class="white-tiny-text centered">
+                � HomeBox - All rights reserved
+            </div>
+        </div>
+
+    </footer>
+</body>
+
+</html>
