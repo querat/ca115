@@ -22,7 +22,9 @@
 }
 
 .team-photo-container {
-
+    padding: 5%;
+    display: flex;
+    flex-direction: column;
 }
 
 .team-photo {
