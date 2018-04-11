@@ -4,7 +4,9 @@
     <meta charset="UTF-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>HomeBox</title>
-    <script src="js/animations.js"></script>
+    <script src="js/lib.js"></script>
+    <script src="js/navbar.js"></script>
+    <script src="js/mainPage.js"></script>
     <link rel="stylesheet" href="style/style.css">
     <link rel="stylesheet" href="style/navbar.css">
     <link rel="stylesheet" href="style/header.css">
@@ -53,8 +55,11 @@
 
             <h2>Our Solution</h2>
             <div class="centered">
-                <img src="res/homebox.jpg" class="image">
+                <img src="res/homebox.jpg" class="image" id="rpi">
             </div>
+
+            <!--<div style="margin-top: 100px"></div>-->
+
             <div class="modules-images-list centered">
 
                 <div class="module-image-background"><img src="res/module1.png" class="module-image"/></div>
@@ -83,7 +88,7 @@
                 the sensors.
             </p>
 
-            <img src="res/app.png" class="centered" style="margin-top: 64px"/>
+            <img id="app-picture" src="res/app.png" class="centered" style="margin-top: 64px"/>
         </div>
 
     </main>
@@ -96,13 +101,13 @@
         <div class="footer-bottom centered-content">
             <ul class="centered-content footer-menu" style="overflow: auto; width: 100%">
                 <li class="footer-menu-element">
-                    element1
+                    <div onclick="window.location.assign('.');">DCU</div>
                 </li>
                 <li class="footer-menu-element">
-                    element2
+                    <div onclick="window.location.assign('.');">License</div>
                 </li>
                 <li class="footer-menu-element">
-                    element3
+                    <div onclick="window.location.assign('.');">Our partners</div>
                 </li>
             </ul>
             <div class="centered centered-content">
