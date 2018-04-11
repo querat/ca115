@@ -18,6 +18,10 @@
     transition:         all 0.5s ease-in-out;
 }
 
+#rpi {
+    z-index: 0;
+}
+
 .module-image-background {
     display:            inline-block;
     margin:             24px;
