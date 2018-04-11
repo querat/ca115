@@ -11,20 +11,26 @@ var lib = {
 };
 
 
-function reverseColors(element) {
-    console.log("recolor");
+function tweenScaleUp(element, scale) {
+    // if (element.classList.contains("animated"))
+    //     return;
+    // element.classList.toggle("changed");
+    element.style.transform = "scale("+scale.toString()+", "+scale.toString()+")";
 }
 
-function tweenScaleElement(element) {
-    element.isScaling = false;
-}
 
-
-
+/* This is why you shoud use at least jquery: */
 window.onload = function (ev) {
-    lib.forEachDivOfClass("module-image-background", tweenScaleElement);
-    lib.forEachDivOfClass("navigation-bar-button", function (element) {
-        element.onmouseover  = function () { this.style.color = "#88FF88"; };
-        element.onmouseleave = function () { this.style.color = "#FFFFFF"; };
-    })
+
+    lib.forEachDivOfClass("module-image-background", function (div) {
+        div.onmouseover  = function () { tweenScaleUp(this, 1.2);            };
+        div.onmouseleave = function () { div.style.transform = "scale(1,1)"; };
+    });
+
+    lib.forEachDivOfClass("navigation-bar-button", function (div) {
+        div.onmouseover  = function () { this.style.color = "#88FF88"; };
+        div.onmouseleave = function () { this.style.color = "#FFFFFF"; };
+    });
+
+
 };
