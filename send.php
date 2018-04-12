@@ -2,7 +2,7 @@
 
 
 
-var_dump($HTTP_GET_VARS)
+var_dump($_GET)
 
 
 
